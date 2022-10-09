@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  height: 85vh;
+}
+.website-logo {
+  width: 60%;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+.login-image {
+  width: 100%;
+  margin-bottom: 15%;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.label-el {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.input-el {
+  background-color: #e2e8f0;
+  border: 1px solid #d7dfe9;
+  outline-color: black;
+  padding: 2%;
+  font-size: 17px;
+  border-radius: 2px;
+  font-family: 'Roboto';
+  color: #64748b;
+  height: 20px;
+  margin-bottom: 10%;
+}
+.login-button {
+  color: white;
+  background-color: #0b69ff;
+  border: none;
+  height: 39px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.website-logo-2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .website-logo {
+    display: none;
+  }
+  .login-image {
+    width: 45%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .form-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 25%;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .label-el {
+    align-self: flex-start;
+  }
+  .input-el {
+    align-self: stretch;
+  }
+  .login-button {
+    align-self: stretch;
+    margin-bottom: 15%;
+  }
+  .website-logo-2 {
+    display: block;
+    width: 60%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+}

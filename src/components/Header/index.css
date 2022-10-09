@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+.home-logo {
+  width: 40%;
+}
+.nav-items {
+  display: none;
+}
+.home-logout {
+  width: 7%;
+}
+.icons-container {
+  background-color: #e6f6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 2px;
+  margin-top: 7%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.nav-icon {
+  width: 7%;
+}
+@media screen and (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+  .home-logout {
+    display: none;
+  }
+  .nav-items {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .home-logo {
+    width: 20%;
+  }
+  .nav-item-para {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .nav-item-button {
+    background-color: #0967d2;
+    color: white;
+    font-family: 'Roboto';
+    height: 30px;
+    width: 79px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
