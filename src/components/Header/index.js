@@ -10,13 +10,16 @@ const Header = () => (
         alt="website logo"
       />
       <div className="nav-items">
-        <p className="nav-item-para">Home</p>
-        <p className="nav-item-para">Products</p>
-        <p className="nav-item-para">Cart</p>
+        <ul className="list-container">
+          <li className="nav-item-para">Home</li>
+          <li className="nav-item-para">Products</li>
+          <li className="nav-item-para">Cart</li>
+        </ul>
         <button type="button" className="nav-item-button">
           Logout
         </button>
       </div>
+
       <img
         className="home-logout"
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
